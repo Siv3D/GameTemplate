@@ -4,7 +4,7 @@
 //
 
 //
-// macOS では LICENSE と同じフォルダに
+// macOS では README.md と同じフォルダに
 // include と lib をコピーしてください。
 //
 
