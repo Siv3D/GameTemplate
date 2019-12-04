@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -80,9 +88,11 @@
     <Filter Include="Resource Files\example\config">
       <UniqueIdentifier>{89c12675-1e86-4726-8c52-108fd67b62e5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Resource Files\example\gui">
+      <UniqueIdentifier>{243acd54-757e-498e-81c4-c8164a884026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font\LogoTypeGothic">
+      <UniqueIdentifier>{b3586a98-5569-49e1-b9d6-cd80cf76ce9d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -285,6 +295,12 @@
     <None Include="App\example\config\config.toml">
       <Filter>Resource Files\example\config</Filter>
     </None>
+    <None Include="App\example\gui\gui.toml">
+      <Filter>Resource Files\example\gui</Filter>
+    </None>
+    <None Include="App\example\font\LogoTypeGothic\LICENSE_E">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="App\engine\font\fontawesome\LICENSE.txt">
@@ -311,6 +327,9 @@
     <Text Include="App\example\test.txt">
       <Filter>Resource Files\example</Filter>
     </Text>
+    <Text Include="App\example\font\LogoTypeGothic\ReadMe_windows.txt">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Font Include="App\example\font\AnnyantRoman\AnnyantRoman.ttf">
@@ -321,6 +340,9 @@
     </Font>
     <Font Include="App\example\font\Pecita\Pecita.otf">
       <Filter>Resource Files\example\font\Pecita</Filter>
+    </Font>
+    <Font Include="App\example\font\LogoTypeGothic\LogoTypeGothic.otf">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
     </Font>
   </ItemGroup>
   <ItemGroup>
@@ -340,25 +362,25 @@
     </Xml>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Game.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="src\Main.cpp">
-      <Filter>src</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Title.cpp">
-      <Filter>src</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.hpp">
-      <Filter>src</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Title.hpp">
-      <Filter>src</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Common.hpp">
-      <Filter>src</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

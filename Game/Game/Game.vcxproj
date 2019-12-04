@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{f424b0a0-676a-4454-b55a-096a06372322}</ProjectGuid>
+    <ProjectGuid>{842c9d93-a554-4af8-9ee3-6a5d5687d8ab}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Game</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -44,8 +44,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SIV3D_0_4_1)\include;$(SIV3D_0_4_1)\include\ThirdParty;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SIV3D_0_4_1)\lib\Windows;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SIV3D_0_4_2)\include;$(SIV3D_0_4_2)\include\ThirdParty;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SIV3D_0_4_2)\lib\Windows;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Intermediate\$(ProjectName)\Debug\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\Debug\Intermediate\</IntDir>
     <TargetName>$(ProjectName)(debug)</TargetName>
@@ -53,8 +53,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SIV3D_0_4_1)\include;$(SIV3D_0_4_1)\include\ThirdParty;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SIV3D_0_4_1)\lib\Windows;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SIV3D_0_4_2)\include;$(SIV3D_0_4_2)\include\ThirdParty;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SIV3D_0_4_2)\lib\Windows;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Intermediate\$(ProjectName)\Release\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\Release\Intermediate\</IntDir>
     <TargetName>$(ProjectName)</TargetName>
@@ -159,8 +159,10 @@
     <None Include="App\example\config\config.ini" />
     <None Include="App\example\config\config.json" />
     <None Include="App\example\config\config.toml" />
+    <None Include="App\example\font\LogoTypeGothic\LICENSE_E" />
     <None Include="App\example\font\NotoSansCJKjp\README" />
     <None Include="App\example\font\Pecita\LICENSE" />
+    <None Include="App\example\gui\gui.toml" />
     <None Include="App\example\svm\a1a_testing" />
     <None Include="App\example\svm\a1a_training" />
     <None Include="App\example\test.toml" />
@@ -171,6 +173,7 @@
     <Text Include="App\engine\font\fontawesome\LICENSE.txt" />
     <Text Include="App\engine\font\noto\LICENSE_OFL.txt" />
     <Text Include="App\example\font\AnnyantRoman\readme.txt" />
+    <Text Include="App\example\font\LogoTypeGothic\ReadMe_windows.txt" />
     <Text Include="App\example\font\NotoSansCJKjp\LICENSE_OFL.txt" />
     <Text Include="App\example\LICENSE.txt" />
     <Text Include="App\example\script\paint.txt" />
@@ -179,6 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="App\example\font\AnnyantRoman\AnnyantRoman.ttf" />
+    <Font Include="App\example\font\LogoTypeGothic\LogoTypeGothic.otf" />
     <Font Include="App\example\font\NotoSansCJKjp\NotoSansCJKjp-Regular.otf" />
     <Font Include="App\example\font\Pecita\Pecita.otf" />
   </ItemGroup>
