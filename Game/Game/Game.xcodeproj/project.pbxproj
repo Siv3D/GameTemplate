@@ -17,7 +17,6 @@
 		2C6906B62298124100A427D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B52298124100A427D0 /* Foundation.framework */; };
 		2C6906B82298124A00A427D0 /* libSiv3D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B72298124A00A427D0 /* libSiv3D.a */; };
 		2C6906BA2298126400A427D0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B92298126400A427D0 /* libfreetype.a */; };
-		2C6906BC229812F800A427D0 /* libangelscript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906BB229812F800A427D0 /* libangelscript.a */; };
 		2C6906BE229812FB00A427D0 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906BD229812FB00A427D0 /* libboost_filesystem.a */; };
 		2C6906C02298130000A427D0 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906BF2298130000A427D0 /* libGLEW.a */; };
 		2C6906C22298130400A427D0 /* libharfbuzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906C12298130400A427D0 /* libharfbuzz.a */; };
@@ -92,7 +91,6 @@
 				2C6906B42298123A00A427D0 /* AudioToolbox.framework in Frameworks */,
 				2C6906B62298124100A427D0 /* Foundation.framework in Frameworks */,
 				2C6906B82298124A00A427D0 /* libSiv3D.a in Frameworks */,
-				2C6906BC229812F800A427D0 /* libangelscript.a in Frameworks */,
 				2C6906BE229812FB00A427D0 /* libboost_filesystem.a in Frameworks */,
 				2C6906BA2298126400A427D0 /* libfreetype.a in Frameworks */,
 				2CE5C85B237FDE6000082EEC /* OpenAL.framework in Frameworks */,
@@ -390,7 +388,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					../../lib/macOS,
-					../../lib/macOS/angelscript,
 					../../lib/macOS/boost,
 					../../lib/macOS/freetype,
 					../../lib/macOS/glew,
@@ -460,7 +457,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					../../lib/macOS,
-					../../lib/macOS/angelscript,
 					../../lib/macOS/boost,
 					../../lib/macOS/freetype,
 					../../lib/macOS/glew,

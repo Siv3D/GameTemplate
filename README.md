@@ -1,3 +1,3 @@
-# OpenSiv3D v0.4.2 Game Project Template
+# OpenSiv3D v0.4.3 Game Project Template
 
-- macOS では、`README.md` と同じフォルダに、SDK の `include` と `lib` をコピーしてください。
+- macOS では、この `README.md` と同じフォルダに、OpenSiv3D SDK の `include` と `lib` をコピーしてください。
