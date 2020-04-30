@@ -94,6 +94,9 @@
     <Filter Include="Resource Files\example\font\LogoTypeGothic">
       <UniqueIdentifier>{b3586a98-5569-49e1-b9d6-cd80cf76ce9d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\example\zip">
+      <UniqueIdentifier>{7962668a-a6a9-4006-b9ef-68e88e8ea073}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -127,6 +130,9 @@
       <Filter>Resource Files\example</Filter>
     </Image>
     <Image Include="App\example\bay.jpg">
+      <Filter>Resource Files\example</Filter>
+    </Image>
+    <Image Include="App\example\test.gif">
       <Filter>Resource Files\example</Filter>
     </Image>
   </ItemGroup>
@@ -300,6 +306,9 @@
     </None>
     <None Include="App\example\font\LogoTypeGothic\LICENSE_E">
       <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </None>
+    <None Include="App\example\zip\zip_test.zip">
+      <Filter>Resource Files\example\zip</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

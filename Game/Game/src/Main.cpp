@@ -1,6 +1,6 @@
 ﻿
 //
-// OpenSiv3D v0.4.2 ゲームテンプレート
+// OpenSiv3D v0.4.3 ゲームテンプレート
 //
 
 //
@@ -14,7 +14,7 @@
 
 void Main()
 {
-	// （ウィンドウの閉じるボタンを押したときだけ終了する場合はコメントを外す）
+	// （Esc キーで終了しないようにする場合はコメントを外す）
 	//System::SetTerminationTriggers(UserAction::CloseButtonClicked);
 
 	// タイトルを設定
@@ -81,10 +81,10 @@ void Main()
 // よくある間違い
 // https://siv3d.github.io/ja-jp/articles/mistakes/
 //
-// 質問などのサポートについて
+// サポートについて
 // https://siv3d.github.io/ja-jp/support/support/
 //
-// Siv3D Slack (ユーザコミュニティ) への参加
+// Siv3D ユーザコミュニティ Slack への参加
 // https://siv3d.github.io/ja-jp/community/community/
 //
 // 新機能の提案やバグの報告
