@@ -5,15 +5,18 @@
 
 ## macOS でのビルド方法
 - macOS 版 Siv3D（OpenSiv3D v0.6.16 Project Templates for macOS）を別途ダウンロードして展開します
-- 展開した中にある `include/` および `lib/` を、`GameTemplate/projects/` ディレクトリにコピーします
+- 展開した中にある `include/` および `lib/` フォルダを、`GameTemplate/` フォルダにコピーします
 
 ```
 GameTemplate/
+├── .gitignore
+├── LICENSE.txt
+├── README.md
+├── include/
+├── lib/
 └── projects/
-    ├── Game/
-    ├── include/
-    ├── lib/
-    └── .gitkeep
+    ├── .gitkeep
+    └── Game/
 ```
 
 - `GameTemplate/projects/Game/Game.xcodeproj` を開きます
