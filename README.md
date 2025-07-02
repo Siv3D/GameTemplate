@@ -1,4 +1,5 @@
 # Siv3D v0.6.16 Game Template
+1 つの Siv3D アプリケーションを Windows 環境と macOS 環境で共同開発する際に便利な、プロジェクト構成テンプレート
 
 ## Windows でのビルド方法
 - `GameTemplate/projects/Game/Game.sln` を開きます
