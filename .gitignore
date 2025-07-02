@@ -415,5 +415,5 @@ gmon.out
 #**/App/dll
 
 # Siv3D SDK for macOS
-projects/include/
-projects/lib/
+/include/
+/lib/
